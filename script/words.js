@@ -1,5 +1,5 @@
 function dataSetup(){
-    fetch("./../source/word/id-words.txt")
+    fetch("source/word/id-words.txt")
     .then(response => response.text())
     .then(text => sessionStorage.setItem("words", text))
 }
