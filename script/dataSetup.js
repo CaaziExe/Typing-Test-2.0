@@ -6,5 +6,3 @@ if(language == null){
 fetch(`source/word/${language}-words.txt`)
 .then(r => r.text())
 .then(data => sessionStorage.setItem("words", data))
-
-console.log(language);
