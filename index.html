@@ -10,7 +10,15 @@
   </head>
 
   <body>
-    <header>Typing Test</header>
+    <header>
+      <div class="f-select">
+        <select class="lang-select">
+          <option value="id">Indonesia</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+      <span>Typing Test</span>
+    </header>
     <div class="loader"></div>
     <div class="main-container">
       <div class="f-text">
@@ -23,10 +31,10 @@
           <span class="time">01:00</span>
         </div>
         <button class="b-restart">
-            <div class="c">
-                <div class="s s1"></div>
-                <div class="s s2"></div>
-            </div>
+          <div class="c">
+            <div class="s s1"></div>
+            <div class="s s2"></div>
+          </div>
         </button>
       </div>
     </div>
@@ -59,6 +67,7 @@
       </div>
     </div>
 
+    <script src="script/dataSetup.js" async></script>
     <script type="module" src="script/main.js"></script>
   </body>
 </html>

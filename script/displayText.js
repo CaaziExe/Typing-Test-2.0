@@ -3,10 +3,10 @@ import {getRandomWord} from "./words.js";
 function generateLine(){
     let charLength = 0;
     let arrLine = [];
-    let maxLength = 57;
+    let maxLength = 59;
     while(true){
         let word = getRandomWord();
-        charLength += word.length;
+        charLength += word.length + 1;
         if(charLength > maxLength){
             break;
         }else{
