@@ -90,6 +90,13 @@ button{
 
 .f-item{
     display: flex;
+    background-color: #fced975d;
+    width: 62ch;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+    font-size: 1.7rem;
+    border-radius: 8px;
 }
 
 .main-input{
@@ -112,9 +119,10 @@ button{
     box-shadow: 0 0 0 5px var(--yellow2);
     color: white;
     text-align: center;
-    line-height: 40px;
+    line-height: 48px;
     font-size: 1.5rem;
     cursor: pointer;
+    height: 50px;
 
     user-select: none;
     -webkit-user-select: none;
@@ -124,9 +132,10 @@ button{
 }
 
 .b-restart{
-    background-color: #fae468;
+    background-color: var(--yellow2);
     border: none;
     width: 70px;
+    height: 54px;
     border-radius: 5px;
     color: var(--black);
     font-size: 2rem;
